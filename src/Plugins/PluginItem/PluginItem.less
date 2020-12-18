@@ -1,0 +1,194 @@
+.plugins-pluginItem {
+    width: 1160px;
+    margin: 0 auto;
+    margin-top: 34px;
+    min-height: 700px;
+    padding-left: 53px;
+    text-align: center;
+
+    .plugins-pluginItem-searchInfo {
+        height: 60px;
+        width: 100%;
+        position: relative;
+        margin: 0 auto;
+        box-sizing: border-box;
+        padding-left: 10px;
+        text-align: left;
+
+        span:nth-child(1) {
+            font-size: 24px;
+            color: #333;
+            vertical-align: baseline;
+            display: inline-block;
+        }
+
+        span:nth-child(2) {
+            font-size: 22px;
+            color: red;
+            margin-left: 10px;
+            vertical-align: baseline;
+            display: inline-block;
+        }
+
+        span:nth-child(3) {
+            font-size: 14px;
+            color: #333;
+            margin-left: 10px;
+            vertical-align: baseline;
+            display: inline-block;
+        }
+    }
+
+    .plugins-pluginItem-box {
+        width: 330px;
+        position: relative;
+        background: #fff;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        border-radius: 5px;
+        float: left;
+        cursor: pointer;
+        transition: all .3s ease-in-out;
+
+        &:hover {
+            transform: translateY(-2%);
+            box-shadow: 1px 4px 10px 2px #CCC;
+        }
+
+        .box-user {
+            height: 20px;
+            line-height: 20px;
+            padding: 0 20px;
+            margin-bottom: 10px;
+
+            .box-avatar {
+                height: 20px;
+                float: left;
+                line-height: 20px;
+
+                img {
+                    width: 20px;
+                    height: 20px;
+                    vertical-align: top;
+                    object-fit: contain;
+                }
+
+                .anticon {
+                    font-size: 40px;
+                }
+            }
+
+            .box-name {
+                height: 20px;
+                line-height: 20px;
+                max-width: 200px;
+                color: #333;
+                font-size: 12px;
+                float: left;
+                margin-left: 10px;
+            }
+        }
+
+        .box-img {
+            width: 100%;
+            padding: 10px 20px;
+            box-sizing: border-box;
+            height: 210px;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+
+            .anticon {
+                font-size: 100px;
+                margin-top: 45px;
+            }
+        }
+
+        .box-title {
+            color: rgba(0, 0, 0, .6);
+            font-size: 16px;
+            font-weight: bold;
+            padding: 0 20px;
+            text-align: left;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .box-desc {
+            margin-top: 10px;
+            text-align: left;
+            padding: 0 20px;
+            color: rgba(0, 0, 0, .8);
+            font-size: 14px;
+            height: 43px;
+            overflow: hidden;
+        }
+
+        .box-more {
+            height: 20px;
+            margin: 10px 20px;
+            line-height: 20px;
+            text-align: left;
+
+            .box-more-see {
+                margin-right: 20px;
+                width: 60px;
+                float: left;
+                color: #534e4e;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                .anticon {
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        .box-type {
+            position: absolute;
+            right: 20px;
+            color: #333;
+            font-size: 12px;
+            bottom: 10px;
+            width: 50px;
+        }
+    }
+
+    .plugins-pluginItem-loading {
+        height: 600px;
+        font-size: 45px;
+        margin-left: -30px;
+        margin-top: 20px;
+    }
+
+    .plugins-pluginItem-none {
+        height: 600px;
+        padding-top: 40px;
+        margin-left: -30px;
+
+        .anticon {
+            font-size: 200px;
+        }
+    }
+}
+
+.plugins-btn {
+    text-align: center;
+    width: 1160px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+
+    &::before {
+        clear: both;
+        content: '';
+        display: block;
+    }
+}

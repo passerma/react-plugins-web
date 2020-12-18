@@ -1,0 +1,59 @@
+.com-navbar {
+    height: 55px;
+    width: 1160px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin: 0 auto;
+
+    .home-logo {
+        float: left;
+        height: 55px;
+        width: 170px;
+        line-height: 55px;
+        position: relative;
+
+        img {
+            display: inline-block;
+            position: absolute;
+            top: 50%;
+            margin-top: -12px;
+        }
+    }
+
+    .home-item {
+        float: left;
+        height: 55px;
+        line-height: 55px;
+        cursor: pointer;
+
+        a {
+            font-size: 20px;
+            color: rgba(255, 255, 255, .5);
+            outline: 0;
+            padding: 0 20px;
+            text-decoration: none;
+            text-underline-position: under;
+        }
+
+        &:hover a {
+            color: #fff;
+        }
+    }
+
+    .home-user {
+        float: right;
+        height: 55px;
+        line-height: 55px;
+        cursor: pointer;
+
+        span {
+            font-size: 20px;
+            color: rgba(255, 255, 255, .5);
+        }
+    }
+
+    .home-search {
+        float: right;
+        margin-right: 30px;
+    }
+}

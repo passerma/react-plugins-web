@@ -1,0 +1,198 @@
+.publish {
+    text-align: center;
+    color: rgba(255, 255, 255, .8);
+    font-size: 26px;
+    background: #fafafb;
+
+    .publish-title {
+        width: 100%;
+        height: 60px;
+        text-align: center;
+        background: #FFEBEB;
+        line-height: 60px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #333;
+    }
+
+    .publish-upload {
+        background: #E2E2E6;
+        color: #333;
+        height: 110px;
+        line-height: 110px;
+        text-align: center;
+        font-size: 14px;
+        border: 1px solid #e2e2e6;
+
+        .publish-upload-click {
+            color: #f64244;
+            margin-left: 12px;
+            cursor: pointer;
+        }
+    }
+
+    .publish-box {
+        min-height: 700px;
+        width: 970px;
+        margin: 0 auto;
+        padding: 45px 30px 0 30px;
+        color: #000;
+
+        .publish-box-top {
+            display: flex;
+            padding-bottom: 20px;
+
+            .publish-box-top-img {
+                position: relative;
+                border: 1px solid #b32e28;
+                width: 500px;
+                height: 280px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+
+                .publish-box-top-img-name {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    color: #333;
+                    right: 0;
+                    height: 280px;
+                    line-height: 280px;
+                    cursor: pointer;
+                }
+            }
+
+            .publish-box-info {
+                width: 470px;
+                height: 280px;
+                text-align: right;
+                padding-top: 10px;
+
+                .item {
+                    width: 100%;
+                    margin-bottom: 20px;
+
+                    input {
+                        display: inline-block;
+                        width: 355px;
+                    }
+
+                    textarea {
+                        vertical-align: top;
+                        display: inline-block;
+                        width: 355px;
+                        height: 75px;
+                        resize: none;
+                    }
+
+                    span {
+                        color: #575555;
+                        font-size: 14px;
+                        margin-right: 8px;
+                    }
+                }
+
+                .version {
+                    display: inline-block;
+                    color: #575555;
+                    font-size: 14px;
+                    width: 205px;
+                    margin-bottom: 5px;
+
+                    .version-name {
+                        margin-right: 8px;
+                    }
+
+                    .ant-select {
+                        width: 85px !important;
+                        margin-right: 5px;
+                    }
+
+                    input {
+                        display: inline-block;
+                        width: 60px;
+                    }
+                }
+
+                .react {
+                    width: 470px;
+                    padding-right: 150px;
+
+                    input {
+                        display: inline-block;
+                        width: 115px;
+                    }
+                }
+            }
+        }
+
+        .publish-box-edit-name {
+            text-align: left;
+            padding-bottom: 8px;
+            color: #575555;
+        }
+
+        #publishEditor {
+            text-align: left;
+        }
+    }
+
+    .publish-link {
+        color: #575555;
+        display: flex;
+        width: 970px;
+        margin: 0 auto;
+        padding: 20px 30px;
+
+        .publish-link-http {
+            width: 620px;
+            text-align: left;
+
+            .title {
+                margin-right: 8px;
+            }
+
+            input {
+                margin-left: 8px;
+                display: inline-block;
+                width: 510px;
+            }
+        }
+
+        .publish-link-class {
+            flex: 1;
+            padding-left: 9px;
+        }
+    }
+
+    .publish-submit {
+        padding: 10px 0;
+        margin: 0 auto;
+        text-align: center;
+        background: #E2E2E6;
+
+        div {
+            display: inline-block;
+            height: 32px;
+            line-height: 30px;
+            border: 1px solid transparent;
+            margin: 20px;
+            cursor: pointer;
+            padding: 0 30px;
+            color: #fff;
+            background: red;
+            font-weight: 400;
+            text-align: center;
+            white-space: nowrap;
+            user-select: none;
+            border-radius: 40px;
+            box-sizing: border-box;
+        }
+    }
+}
